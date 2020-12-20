@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    height: 1px;
+    background-color: gainsboro;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.header__navigation > .navigation__menu > .menu__item {
+    display: inline;
+    margin-left: 30px;
+}
+
+.header__social-media > img {
+    width: 18px;
+    margin-left: 10px;
+}
+
+.header__social-media {
+    margin-left: auto;
+}
+
+.main__welcome {
+    display: flex;
+}
+
+.main__welcome > .welcome__text {
+    padding: 100px 50px;
+}
+
+.main__welcome > .welcome__text > p {
+    text-align: justify;
+}
+
+.main__welcome > .welcome__text > input {
+    padding: 10px 25px;
+    border: 1px solid #8895A3;
+    color: #8895A3;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.main__welcome > .welcome__text > .sm-text {
+    font-size: 14px;
+}
+
+.stories__story-1 {
+    display: flex;
+}
+
+.stories__story-1 > .story-1__text {
+    align-self: center;
+    padding: 0px 35px;
+}
+
+.stories__story-1 > .story-1__text > input {
+    padding: 10px 25px;
+    border: 1px solid #8895A3;
+    color: #8895A3;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* 2 */
+
+.stories__story-2 > .story-2__text {
+    text-align: justify;
+}
+
+.stories__story-2 {
+    display: flex;
+}
+
+.stories__story-2 > .story-2__text {
+    align-self: center;
+    padding: 0px 35px;
+}
+
+.stories__story-2 > .story-2__text > input {
+    padding: 10px 25px;
+    border: 1px solid #8895A3;
+    color: #8895A3;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.stories__story-2 > .story-2__text {
+    text-align: justify;
+}
+
+.gallery-title {
+    text-align: center;
+    margin: 25px;
+}
+
+.main__gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-title {
+    text-align: center;
+    margin: 25px;
+}
+
+.main__features {
+    padding: 0px 40px;
+}
+.features__blocks-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.features__blocks-1 > .blocks-1__block {
+    padding: 25px 50px;
+    text-align: center;
+    align-self: center;
+}
+
+.blocks-1__block:nth-child(1), .blocks-1__block:nth-child(2) {
+    border-right: 2px solid gainsboro;
+}
+
+.blocks-1__block {
+    border-bottom: 2px solid gainsboro;
+}
+
+/* 2 */
+
+.features__blocks-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.features__blocks-2 > .blocks-2__block {
+    padding: 25px 50px;
+    text-align: center;
+    align-self: center;
+}
+
+.blocks-2__block:nth-child(1), .blocks-2__block:nth-child(2) {
+    border-right: 2px solid gainsboro;
+}
+
+.write-to-us__title {
+    text-align: center;
+    margin: 25px;
+}
+
+.main__write-to-us {
+    width: 80%;
+    margin: 0 auto;
+}
+.form__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__header > .form__name  {
+    width: 30%;
+}
+
+.form__header > .form__email  {
+    width: 30%;
+}
+
+.form__header > .form__tel  {
+    width: 30%;
+}
+
+
+.form__header > .form__name > label > input {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.form__header > .form__email > label > input {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.form__header > .form__tel > label > input {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.form__section-1 {
+    display: flex;
+}
+
+.form__section-1 > input {
+    margin-left: 30px;
+    margin-right: 10px;
+    align-self: center;
+}
+
+.form__section-3 > label > select {
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.form__section-4 > label > textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    max-height: 300px;
+    margin-top: 10px;
+}
+
+.form__section-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__section-5 > input {
+    padding: 10px 25px;
+    border: 1px solid #8895A3;
+    color: #8895A3;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.section-5__check > input{
+    margin-right: 10px;
+}
+
+.form__block {
+    margin-bottom: 20px;
+}
+
+.footer > .footer__social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer > .footer__social-media > img {
+    width: 40px;
+    border: 1px solid #4D4D4D;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 5px;
+}
+.footer > .footer__social-media > img:hover {
+background-color: gainsboro;
+cursor: pointer;
+}
+
+.footer > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 25px;
+}
